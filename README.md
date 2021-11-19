@@ -50,6 +50,6 @@ git checkout Windows
 ```
 ### OUTPUT 
 
-![output 1](./.assets/output1.png "OUTPUT 1")
+![output 1](./.assets/output-1.png "OUTPUT 1")
 
-![output 2](./.assets/output2.png "OUTPUT 2")
+![output 2](./.assets/outpu-2.png "OUTPUT 2")
