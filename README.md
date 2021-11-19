@@ -23,6 +23,8 @@ be able to take the second toothpick.
 
 ## How to execute?
 
+> ⚠️  Note if you can't compile the program, delete the emojis
+
 ### MacOs/Linux 
 
 ```bash 
@@ -40,4 +42,9 @@ be able to take the second toothpick.
 ```
 
 ```bash 
-./.compile/execute.bat
+./.compile/execute.batA
+```
+### OUTPUT 
+
+![output 1](./.assets/Screen Shot 2021-11-19 at 7.50.14.png "OUTPUT 1")
+![output 2](./.assets/Screen Shot 2021-11-19 at 7.50.38.png "OUTPUT 2")

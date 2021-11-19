@@ -5,11 +5,11 @@ class App {
 		Chopstick chopstick = new Chopstick();
 
 		Philosopher[] table = new Philosopher[] {
+			new Philosopher(0, chopstick),
 			new Philosopher(1, chopstick),
 			new Philosopher(2, chopstick),
 			new Philosopher(3, chopstick),
-			new Philosopher(4, chopstick),
-			new Philosopher(5, chopstick)
+			new Philosopher(4, chopstick)
 		};
 
 
@@ -17,7 +17,7 @@ class App {
 			philosopher.start();
 		}
 
-		Thread.sleep(3000);
+		Thread.sleep(25000);
 
 		for (Philosopher philosopher : table) {
 			philosopher.stopThread();
