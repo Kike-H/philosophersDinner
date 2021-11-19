@@ -37,11 +37,15 @@ be able to take the second toothpick.
 
 ### Windows
 
-```bash 
+```cmd
+git checkout Windows
+```
+
+```cmd
 ./.compile/compiler.bat
 ```
 
-```bash 
+```cmd
 ./.compile/execute.batA
 ```
 ### OUTPUT 

@@ -13,7 +13,7 @@ public class Philosopher extends Thread {
 		this.id = id;
 		this.chopstick = chopstick;
 		this.flag = true;
-		System.out.println("Philosopher "+(this.id+1)+" arrived 🧐");
+		System.out.println("Philosopher "+(this.id+1)+" arrived 🤓");
 	}
 
 	//Run
