@@ -8,6 +8,7 @@ public class Philosopher extends Thread {
 	private Chopstick chopstick;
 	private boolean flag;
 
+	//Constructor
 	public Philosopher(int id, Chopstick chopstick) {
 		this.id = id;
 		this.chopstick = chopstick;
@@ -15,6 +16,7 @@ public class Philosopher extends Thread {
 		System.out.println("Philosopher "+(this.id+1)+" arrived 🧐");
 	}
 
+	//Run
 	@Override
 	public void run() {
 			while(flag) {
@@ -22,6 +24,7 @@ public class Philosopher extends Thread {
 				int left  = this.id;
 				int right = (this.id+1)%chopstick.getNumberChopstick();
 
+				//Change the way to take the chopstick
 				if(right > left) {
 					int aux = left;
 					left = right;
@@ -36,6 +39,7 @@ public class Philosopher extends Thread {
 
 				System.out.println("\t\t\t"+"The philosopher "+(this.id+1)+" is eating 🤤");
 
+				//Wait from 5 seconds to 2 seconds
 				try {
 					Thread.sleep((int)Math.random()*5000+2000);
 				} 
@@ -49,6 +53,7 @@ public class Philosopher extends Thread {
 			}
 	}
 
+	//Stop the thread
 	public void stopThread() {
 		this.flag = false;
 	}
